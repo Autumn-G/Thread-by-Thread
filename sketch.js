@@ -358,7 +358,7 @@ function mousePressed() {
   if (_btnBounds) {
     let b = _btnBounds;
     if (mouseX > b.x && mouseX < b.x + b.w && mouseY > b.y && mouseY < b.y + b.h) {
-      window.location.href = 'lab/index.html';
+      window.location.href = 'Lab/index.html';
       return;
     }
   }
