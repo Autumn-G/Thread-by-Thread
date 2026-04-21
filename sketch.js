@@ -358,7 +358,7 @@ function mousePressed() {
   if (_btnBounds) {
     let b = _btnBounds;
     if (mouseX > b.x && mouseX < b.x + b.w && mouseY > b.y && mouseY < b.y + b.h) {
-      window.location.href = 'https://autumn-g.github.io/Thread-by-Thread/lab/index.html';
+      window.location.href = 'https://autumn-g.github.io/Thread-by-Thread/Lab/index.html';
       return;
     }
   }
